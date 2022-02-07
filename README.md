@@ -56,7 +56,7 @@ Your work will be marked on the following criteria:
     - Use of HTML elements
     - Accessible
   - CSS
-    - Well-structured and easy to find relevant files
+    - Well-structured and easy to find relevant files.
     - Good / consistent naming conventions (methodologies)
     - Reliable and simple techniques used (e.g. Flex vs. Grid vs. Normal flow, etc)
 - Results
