@@ -1,0 +1,64 @@
+@import "variables";
+
+/* This for the section heading */
+
+.content {
+  line-height: $line_height;
+
+  @media (min-width: $breakpoint-desktop) {
+    max-width: $breakpoint-desktop;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 7rem;
+    padding-top: 15rem;
+  }
+}
+
+.main__header {
+  background-color: $header_bg_color;
+  @media (min-width: $breakpoint-desktop) {
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50vw - 11px);
+    background-position-y: 15px;
+    background-size: contain;
+  }
+}
+
+.main__header__masthead {
+  font-weight: 700;
+  font-size: 1.874rem;
+  color: $heading_color;
+  margin: 0;
+  padding-bottom: 2.06rem;
+
+  @media (min-width: $breakpoint-desktop) {
+    font-size: 2.25rem;
+  }
+}
+
+/* When a mouse hover over it */
+.main__header__masthead:hover {
+  color: $heading_hover_color;
+  text-decoration: underline;
+}
+
+/* For the article */
+.main__header__description {
+  font-size: 1rem;
+  margin: 0;
+  padding-bottom: 3.125rem;
+  color: $color;
+
+  @media (min-width: $breakpoint-desktop) {
+    font-size: 1.125rem;
+  }
+}
+
+
+.content > * {
+  @media (min-width: $breakpoint-desktop) {
+    max-width: $content-width;
+  }
+}

@@ -1,0 +1,338 @@
+/* Only for the fall back fonts */
+/* Fallback fonts */
+/* for the regular fonts */
+@font-face {
+  font-style: normal;
+  font-family: "Lato";
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato-regular.woff2") format("woff2"), url("../fonts/lato-regular.woff") format("woff"); }
+
+/* for the bold fonts */
+@font-face {
+  font-style: normal;
+  font-family: "Lato";
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff"); }
+
+/* For the style in general */
+body {
+  font-family: 'Lato',Arial, Helvetica, sans-serif;
+  margin: 0; }
+
+main {
+  text-align: center; }
+
+main > header {
+  text-align: center; }
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 10px; }
+
+p {
+  font-size: 16px; }
+
+a {
+  text-decoration: none; }
+
+figure {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+/* Hide all the image description */
+span {
+  display: none; }
+
+/* Import the new file in here */
+.header {
+  text-align: center;
+  background-color: #F4F6F9; }
+  @media (min-width: 1114px) {
+    .header {
+      position: absolute;
+      left: 50%; } }
+
+.header__logo {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 2.25rem;
+  padding-bottom: 3.125rem; }
+  @media (min-width: 1114px) {
+    .header__logo {
+      padding-top: 1rem;
+      padding-bottom: 8.3125rem;
+      margin-left: calc(50% - 1114px); } }
+
+/* The logo image */
+.header__logo__link__image {
+  min-width: 11.625rem; }
+  @media (min-width: 1114px) {
+    .header__logo__link__image {
+      max-width: 5.75rem; } }
+
+/* This for the section heading */
+.content {
+  line-height: 1.5; }
+  @media (min-width: 1114px) {
+    .content {
+      max-width: 1114px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      padding-bottom: 7rem;
+      padding-top: 15rem; } }
+
+.main__header {
+  background-color: #F4F6F9; }
+  @media (min-width: 1114px) {
+    .main__header {
+      background-image: url("../img/bg_header.png");
+      background-repeat: no-repeat;
+      background-position-x: calc(50vw - 11px);
+      background-position-y: 15px;
+      background-size: contain; } }
+
+.main__header__masthead {
+  font-weight: 700;
+  font-size: 1.874rem;
+  color: #333333;
+  margin: 0;
+  padding-bottom: 2.06rem; }
+  @media (min-width: 1114px) {
+    .main__header__masthead {
+      font-size: 2.25rem; } }
+
+/* When a mouse hover over it */
+.main__header__masthead:hover {
+  color: rgba(51, 51, 51, 0.7);
+  text-decoration: underline; }
+
+/* For the article */
+.main__header__description {
+  font-size: 1rem;
+  margin: 0;
+  padding-bottom: 3.125rem;
+  color: #4f4f4f; }
+  @media (min-width: 1114px) {
+    .main__header__description {
+      font-size: 1.125rem; } }
+
+@media (min-width: 1114px) {
+  .content > * {
+    max-width: 546px; } }
+
+.main__section {
+  padding-top: 3.4375rem;
+  line-height: 1.5; }
+
+.main__section {
+  padding-bottom: 700px;
+  background-image: url("../img/bg_friendly_user_interface.png");
+  background-position: 50% calc(100% + 700px); }
+
+.main__section__header {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0; }
+
+.main__section__article__heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333333;
+  margin: 0;
+  padding-top: 27px; }
+
+.main__section__article__description {
+  margin: 0;
+  padding-top: 27px;
+  font-size: 16px;
+  color: #4f4f4f; }
+
+.main__section__article__learn-more {
+  margin: 0;
+  padding-top: 25px; }
+
+.main__section__article__learn-more__link {
+  font-size: 16px;
+  font-weight: 700; }
+
+@media (min-width: 1114px) {
+  .main__section {
+    max-width: 1114px;
+    margin: auto;
+    text-align: left;
+    padding-top: 217px;
+    padding-bottom: 171px;
+    background-image: url("../img/bg_friendly_user_interface.png");
+    background-position: calc(50% + 240px) 50%; }
+  .main__section__article {
+    max-width: 480px; } }
+
+.main__feature__list-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.5;
+  color: #00ADEE; }
+
+.main__feature__heading {
+  font-size: 28px;
+  color: #333333;
+  margin: 0;
+  padding-top: 76px;
+  padding-bottom: 58px; }
+
+.main__feature__list-item__information {
+  padding-bottom: 50px; }
+
+.main__feature__list-item__information > p {
+  color: #4f4f4f;
+  margin: 0; }
+
+svg {
+  fill: currentColor;
+  color: inherit;
+  margin: 0; }
+
+@media (min-width: 1114px) {
+  .main__feature {
+    background-color: #00ADEE; }
+  .main__feature__heading {
+    color: #ffff; }
+  .main__feature__list-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 90px;
+    grid-row-gap: calc(90px / 2);
+    max-width: 1114px;
+    margin: auto;
+    color: #ffff;
+    text-align: left; }
+  .main__feature__list-item__information > p {
+    color: #ffff; } }
+
+.main__logo__heading {
+  font-weight: 700;
+  color: #333333;
+  font-size: 28px;
+  line-height: 1.7; }
+
+.main__logo__article__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center; }
+  @media (min-width: 1114px) {
+    .main__logo__article__list-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; } }
+
+.main__logo__article__list-item__information--sport_tv {
+  flex-basis: 50%; }
+
+.main__logo__article__list-item__information--sports-logo {
+  flex-basis: 50%; }
+
+.main__logo__article__list-item__information--nbc-sport {
+  flex-basis: 30%; }
+
+.main__logo__article__list-item__information--designer-technology {
+  flex-basis: 40%; }
+
+.main__logo__article__list-item__information--designer-news {
+  flex-basis: 30%; }
+
+.main__logo__article__list-item__information--sky-sport {
+  flex-basis: 100%; }
+
+.main__logo__article__list-item__information a {
+  min-height: 100px;
+  display: block;
+  margin: 0; }
+
+@media (min-width: 1114px) {
+  .main__logo__article__list-item__information {
+    flex-basis: auto; }
+  .main__logo {
+    max-width: 1114px;
+    margin: auto; } }
+
+.main__footer {
+  background-color: #00ADEE;
+  padding: 10px; }
+
+.main__footer a {
+  color: white; }
+
+.main__footer__navigation {
+  text-align: left;
+  margin: 0; }
+  @media (min-width: 1114px) {
+    .main__footer__navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 1114px;
+      margin: auto;
+      padding-block-start: 2rem;
+      padding-block-start: 2rem; } }
+
+.main__footer__navigation__social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 150px; }
+  @media (min-width: 1114px) {
+    .main__footer__navigation__social-media {
+      order: 3; } }
+
+.main__footer__navigation__social-media__list-item {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 25px;
+  text-indent: -999px;
+  overflow: hidden; }
+
+.main__footer__navigation__social-media__list-item--twitter {
+  background-image: url("../img/icon_twitter.svg"); }
+
+.main__footer__navigation__social-media__list-item--facebook {
+  background-image: url("../img/icon_facebook.svg"); }
+
+.main__footer__navigation__social-media__list-item--instagram {
+  background-image: url("../img/icon_instagram.svg"); }
+
+.main__footer__navigation__find-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+  line-height: 1.5; }
+  @media (min-width: 1114px) {
+    .main__footer__navigation__find-more {
+      order: 2;
+      padding-inline-start: 2rem; } }
+
+/* Using the default device which is mobile */
+.main__header__navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 400px; }
+  @media (min-width: 1114px) {
+    .main__header__navigation__list {
+      margin: 0; } }

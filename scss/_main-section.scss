@@ -1,0 +1,57 @@
+@import "variables";
+
+.main__section {
+  padding-bottom: $interface-padding;
+  background-image: url("../img/bg_friendly_user_interface.png");
+  background-position: $half-width calc(100% + #{$interface-padding});
+}
+
+.main__section__header {
+  text-transform: uppercase;
+  font-weight: $font_weight;
+  font-size: $base_font_size;
+  margin: 0;
+}
+
+.main__section__article__heading {
+  font-size: $heading_font_size;
+  font-weight: $font_weight;
+  color: $heading_color;
+  margin: 0;
+  padding-top: 27px;
+}
+
+.main__section__article__description {
+  margin: 0;
+  padding-top: 27px;
+  font-size: $base_font_size;
+  color: $color;
+}
+
+.main__section__article__learn-more {
+  margin: 0;
+  padding-top: 25px;
+}
+
+.main__section__article__learn-more__link {
+  font-size: $base_font_size;
+  font-weight: $font_weight;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .main__section {
+    max-width: $breakpoint-desktop;
+    margin: auto;
+    text-align: left;
+    padding-top: 217px;
+    padding-bottom: 171px;
+    background-image: url("../img/bg_friendly_user_interface.png");
+    background-position: calc(#{$half-width} + 240px) $half-width;
+
+  }
+
+  .main__section__article {
+    max-width: 480px;
+  }
+
+}

@@ -56,7 +56,7 @@ Your work will be marked on the following criteria:
     - Use of HTML elements
     - Accessible
   - CSS
-    - Well-structured and easy to find relevant files
+    - Well-structured and easy to find relevant files.
     - Good / consistent naming conventions (methodologies)
     - Reliable and simple techniques used (e.g. Flex vs. Grid vs. Normal flow, etc)
 - Results
@@ -73,3 +73,12 @@ Bonus points will be awarded for code that uses:
 - elegant (thoughtful) solutions to complex problems
 - going the extra mile (putting in more effort to push for high quality or delight)
 
+# Install
+
+Use `npm i` to install any file or folder.
+
+## Run css
+
+Use this command to run the file `npm run css:watch`.
+
+When you add a new file restart `css:Watch`

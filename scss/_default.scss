@@ -1,0 +1,44 @@
+@import "variables";
+$decoration: none;
+$text_align: center;
+
+body {
+  font-family: 'Lato',Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+main {
+  text-align: $text_align;
+}
+
+main > header {
+  text-align: $text_align;
+}
+
+nav > ul {
+  @include reset_list();
+
+  padding: 10px;
+}
+
+
+p {
+  font-size: $base_font_size;
+}
+
+a {
+  text-decoration: $decoration;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Hide all the image description */
+span {
+  display: $decoration;
+}
